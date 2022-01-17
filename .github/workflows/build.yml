@@ -1,0 +1,5 @@
+name: Build .NET
+
+on: 
+  push: [push, pull_request]
+
