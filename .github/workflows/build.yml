@@ -35,4 +35,4 @@ jobs:
         uses: microsoft/setup-msbuild@v1.0.1
       
       - name: Build 
-        run: msbuild $env:Solution_Path /t:Restore;Build
+        run: msbuild $env:Solution_Path -t:build -restore
