@@ -19,6 +19,7 @@ jobs:
     env:
       Solution_Path: Firma_zadanie.sln
       WPF_Project_Path: Firma_zadanie\Firma_zadanie.csproj
+      Actions_Allow_Unsecure_Commands: true
     
     steps:
     
